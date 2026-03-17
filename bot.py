@@ -7,7 +7,6 @@ from config import BOT_TOKEN
 from handlers.start import register_handlers as start_handlers
 from handlers.questions import register_handlers as questions_handlers
 from handlers.manager import register_handlers as manager_handlers
-from handlers.tracking import register_handlers as tracking_handlers
 from handlers.search import register_handlers as search_handlers
 from handlers.order import register_handlers as order_handlers
 
