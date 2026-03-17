@@ -19,11 +19,13 @@ dp = Dispatcher(bot, storage=storage)
 start_handlers(dp)
 questions_handlers(dp)
 manager_handlers(dp)
-tracking_handlers(dp)
 search_handlers(dp)
 order_handlers(dp)
 
 
 if __name__ == "__main__":
     print("🚀 Бот запущен...")
-    executor.start_polling(dp, skip_updates=True)
+    try:
+        executor.start_polling(dp, skip_updates=True)
+    except Exception as e:
+        print(f"❌ Ошибка: {e}")

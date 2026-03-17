@@ -4,7 +4,7 @@ menu = ReplyKeyboardMarkup(resize_keyboard=True)
 
 menu.add(
     KeyboardButton("📝 Сделать заказ"),
-    KeyboardButton("🚚 Отследить груз")
+    
 )
 
 menu.add(
