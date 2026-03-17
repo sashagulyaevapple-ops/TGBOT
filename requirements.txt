@@ -31,4 +31,3 @@ typing_extensions==4.15.0
 urllib3==2.6.3
 yarl==1.22.0
 python-dotenv
-MANAGER_USERNAME = os.getenv("MANAGER_USERNAME")
