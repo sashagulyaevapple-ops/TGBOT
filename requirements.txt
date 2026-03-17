@@ -1,5 +1,5 @@
 aiofiles==24.1.0
-aiogram==3.22.0
+aiogram==2.25.1
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.15
 aiosignal==1.4.0
@@ -30,3 +30,5 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 urllib3==2.6.3
 yarl==1.22.0
+python-dotenv
+MANAGER_USERNAME = os.getenv("MANAGER_USERNAME")
